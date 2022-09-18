@@ -1,128 +1,96 @@
-*{
-  box-sizing: border-box;
-  margin:0;
-  padding:0;
+.container-fluid{
+	margin: 0;
+	padding: 0;
 }
 
-body{
-  font-family: 'Lato', sans-serif;  
+.navbar{
+	border-radius: 0px;
+	background-color: rgba(0,0,0,0.8);
 }
+
+.navbar-brand{
+  font-size: 35px;
+  color: white;
+  padding-left: 25px;
+}
+
+.navbar-brand:hover{
+	color: white;
+}
+
+.nav{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-nav{
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-toggle{
+	border: 2px solid white;
+	margin-right: 25px;
+}
+
+.icon-bar{
+	background-color: white;
+}
+
+
+.main-title{
+  margin-bottom: 15px;
+  text-align: center;
+  color: #ff4532;
+  font-size: 50px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+}
+
+li{
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.menu-item{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: white;
+	border-bottom: 1px solid black;
+	color: black;
+	display: block;
+}
+
+.menu-item:hover{
+	background-color: rgba(0,0,0,0.9);
+	color: rgba(0,0,0,0.4);
+}
+
+
 
 .row{
-  width: 100%;
+	margin: 20px;
 }
 
-.menu-title{
-  text-align: center;
-  margin-bottom: 30px;
+.content-box{
+	margin: 20px;
+	width: auto;
+	height: auto;
+	color: black;
+	background-color: rgba(0,0,0,0.2);
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding: 20px;
 }
 
-.container{
- position: relative;
- top:60px;
- margin: 15px; 
+.item-name{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
 }
 
-.item{
-  position: relative;
-  top: 0;
-  background-color:#999999;
-  margin: 15px;
-  padding: 25px;
-  border: 3px solid #000;
-}
+#top{
 
-.item p{
-  margin-top: 18px;
-  text-align: justify;
-  font-size:100%;
-}
-
-.item-title{
-  position: absolute;
-  top:0;
-  right: 0px;
-  background: green; 
-  padding: 6px 90px;
-  border-left: 2px solid #000;
-  border-bottom: 2px solid #000;
-}
-
-#title-one {
-  background-color: #D59898;
-} 
-
-#title-two{
-  background-color: #C14543;
-}
-
-#title-three{
-  background-color: #E5D198;
-}
-
-/* Simple Responsive Framework. */
-/*------ Desktop ------*/
-@media (min-width: 992px){
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;  
-  }
-  .col-lg-1 {
-    width: 8.33%;
-  }
-  .col-lg-2 {
-    width: 16.66%;
-  }
-  .col-lg-3 {
-    width: 25%;
-  }
-  .col-lg-4 {
-    width: 33.33%;
-  }
-  .col-lg-5 {
-    width: 41.66%;
-  }
-  .col-lg-6 {
-    width: 50%;
-  }
-  .col-lg-7 {
-    width: 58.33%;
-  }
-  .col-lg-8 {
-    width: 66.66%;
-  }
-  .col-lg-9 {
-    width: 74.99%;
-  }
-  .col-lg-10 {
-    width: 83.33%;
-  }
-  .col-lg-11 {
-    width: 91.66%;
-  }
-  .col-lg-12 {
-    width: 100%;
-  }
-
-}
-
-
-/*------ Tablet ------*/
-@media (min-width: 768px) and (max-width: 991px){
-  .col-lg-4 {
-    width: 50%;
-    float: left;
-  }
-  .col-lg-tablet{
-   width: 100%;
-   float: left;
- }
-}
-
-
-/*------ Mobile ------*/
-@media (max-width: 767px){
-  .col-lg-4{
-    width: 100%;
-    float: left;
-  }
 }
